@@ -15,7 +15,7 @@ public class LearningdockerApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return("Test");
+		return("Welcome Page get api");
 	}
 
 }
